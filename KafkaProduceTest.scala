@@ -15,7 +15,7 @@ object KafkaProduceTest {
   val producer = getNewProducer(brokerlist) 
 
   def main(args: Array[String]) {
-    val serialPort = new SerialPort("COM1");
+    val serialPort = new SerialPort("/dev/ttyUSBS0");
     System.out.println("Port opened: " + serialPort.openPort());
     System.out.println("Params setted: " + serialPort.setParams(9600, 8, 1, 0, false, false));
 
