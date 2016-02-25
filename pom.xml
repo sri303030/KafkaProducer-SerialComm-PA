@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>spark-scala</groupId>
 	<artifactId>spark-scala-maven-project</artifactId>
-	<name>KafkaTest</name>
+	<name>KafkaProducer-SerialComm-PA</name>
 	<version>1.0</version>
 
 	<properties>
